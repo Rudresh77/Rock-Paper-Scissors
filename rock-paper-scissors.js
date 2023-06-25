@@ -18,7 +18,7 @@ updateScoreElement();
 function pickComputerMove()
 {
   let computerMove ='';
-  const randomNum = Math.random(); /* variable to store random number generated from the in-built functionMath.random()*/
+  const randomNum = Math.random(); /* variable to store random number generated from the in-built function Math.random()*/
 
   if(randomNum >= 0 && randomNum < 1/3)
   {
