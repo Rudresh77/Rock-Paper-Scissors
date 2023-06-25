@@ -37,7 +37,7 @@ function pickComputerMove()
 
 function playGame(yourMove)
 {
-  computerMove = pickComputerMove();
+  let computerMove = pickComputerMove();
 
   result = '';
 
